@@ -1,0 +1,32 @@
+body {
+    justify-content: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: turquoise;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+p {
+    color: white;
+    font-weight: 600;
+}
+
+.query{
+    padding-bottom: 20%;
+}
+
+input {
+    padding-left: 120px;
+    text-align: left;
+}
+
+input ::placeholder {
+    text-align: center;
+    align-items: center;
+}
+
+.centered-placeholder::placeholder {
+  text-align: center;
+}

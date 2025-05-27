@@ -1,0 +1,123 @@
+/* phone */
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li :hover {
+    background-color: rgb(57, 56, 56);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url("static/bg1.png");
+    color: #1d1d1f;
+    min-height: 40vh;
+}
+.hero h1 {
+    margin-top: 0vh;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero p {
+    margin-top: 30vh;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+.cta-button {
+    background: #0071e3;
+    width: 5rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: .5em;
+    cursor: pointer;
+}
+.cta-button:hover {
+    background: #0062c4;
+}
+
+/* Features Section */
+.features {
+    padding: 40px 20px;
+    background: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.feature {
+    background: #f5f5f7;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.feature h3 {
+    color: #1d1d1f;
+    margin-bottom: 10px;
+}
+.feature p {
+    color: #86868b;
+}
+
+.feature ul {
+    list-style-type: none;
+    padding-right: 3rem;
+}
+
+/* footer */
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    padding-top: 5rem;
+}
