@@ -1,4 +1,7 @@
 @media screen and (max-width: 600px) {
+    body {
+        font-size: large;
+    }
     .photo img {
         width: 40vw;            /* Responsive width for mobile */
         max-width: 120px;       /* Cap the size for larger smartphones */
@@ -10,6 +13,7 @@
         border: 5px solid #21243D;
         display: block;
         margin: 0 auto;
+        flex-direction: column;
     }
 
     .photo {

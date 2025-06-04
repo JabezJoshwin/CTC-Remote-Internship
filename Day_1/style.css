@@ -8,6 +8,14 @@ body {
     font-weight: bolder;
 }
 
+body img {
+    width: 20vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+}
+
 p {
     color: white;
     font-weight: 600;
