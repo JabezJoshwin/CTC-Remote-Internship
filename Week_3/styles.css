@@ -37,9 +37,21 @@
   border-radius: 10px;
 } */
 
+.karunya {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  border: 2px solid #253c76;
+  color: white;
+  background-color: #253c76;
+  border-radius: 0.5rem;
+  margin-bottom: 0;
+}
 .section1 {
   /* background-color: rgba(128, 128, 128, 0.185); */
-  background-color: #4e598ca3;
+  background-color: #253c76d7;
   /* background-image: url(./images/droneShot.jpg); */
   background-size: cover;
   border-radius: 0 0 1rem 1rem;
@@ -245,7 +257,7 @@ iframe {
   flex-wrap: wrap;
   gap: 20px;
   padding: 2rem;
-  background-color: #4e598cd9;
+  background-color: rgba(245, 222, 179, 0);
   border-radius: 0 0 1rem 1rem;
 }
 
