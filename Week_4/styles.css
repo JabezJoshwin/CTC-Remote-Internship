@@ -1,0 +1,369 @@
+.navbar-brand img {
+  max-width: 100%; /* Ensures image never overflows its container */
+  height: auto;    /* Maintains aspect ratio */
+  max-height: 40px; /* Optional: set a maximum height */
+}
+
+.carousel img{
+  height: 100%;
+  max-height: 75vh;
+  object-fit: cover;
+}
+
+.Main-heading {
+  justify-content: center;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  /* background-color: #253c76; */
+}
+
+.carousel-caption h5{
+  color: white;
+  font-family: sans-serif;
+  font-size: x-large;
+  border-color: black;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+.carousel-caption p {
+  color: white;
+  font-family: sans-serif;
+}
+
+/* .carousel-caption {
+  background-color: rgba(128, 128, 128, 0.592);
+  border-radius: 10px;
+} */
+
+.karunya {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  border: 2px solid #253c76;
+  color: white;
+  background-color: #253c76;
+  border-radius: 0.5rem;
+  margin-bottom: 0;
+}
+.section1 {
+  /* background-color: rgba(128, 128, 128, 0.185); */
+  background-color: #253c76d7;
+  /* background-image: url(./images/droneShot.jpg); */
+  background-size: cover;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.section1 p {
+  margin: 3% 25% 0 25%;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,1);
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding: 3rem;
+  background-color: rgba(0, 0, 0, 0.303);
+}
+
+.section1 h1 {
+  text-align: center;
+  padding-top: 2%;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: white;
+  margin-top: -2rem;
+  
+}
+
+.subs {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.feature {
+    background: #f5f5f7;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.feature h3 {
+  text-align: center;
+}
+
+.ug, .pg {
+  width: 50%;
+}
+
+.containerugpg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color:  rgba(128, 128, 128, 0.185);
+  padding-bottom: 2%;
+}
+
+.containerugpg h1 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.section-left, .section-right {
+  flex: 1;
+  min-width: 300px; /* Minimum width before stacking */
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+.section-left h2, .section-right h2 {
+  text-align: center;
+  font-weight: 600;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+
+.section-left p, .section-right p {
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.Subheading {
+  text-align: center;
+  padding-bottom: 2%;
+  background-color: rgba(128, 128, 128, 0.185);
+  margin: 0% 0% 0% 0%;
+}
+
+.card {
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.faculties h1 {
+  margin-top: 2%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.card img {
+  max-height: 20rem;
+  object-fit: cover;
+}
+
+.facilities {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.downloads {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20%;
+}
+
+/* footer */
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 10vh;
+    padding-top: 5rem;
+    border-radius: .5%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+.social-icons a {
+  color: #333;
+  font-size: 24px;
+  transition: color 0.2s;
+}
+.social-icons a:hover {
+  color: #4E598C;
+}
+
+hr {
+  border: 2px solid black;
+  width: 2px;
+  margin: 20px auto;
+}
+
+.testimonials {
+  margin: 0;
+  background-image: url("/Week_3/images/testimonial_bg.jpg");
+  display: inlline-block;
+  flex-wrap: wrap;
+  
+}
+
+.divider {
+    display: block;
+    height: 2px;
+    background: #333;
+    margin: 16px auto;
+    width: 90%;
+    opacity: .5;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+.testimonials ::backdrop{
+    margin-bottom: 30rem;
+}
+
+.testimonials h1 {
+  text-align: center;
+  color: white;
+  padding-top: 2%;
+  font-family: sans-serif;
+  font-weight: 700;
+
+}
+
+iframe {
+  margin-left: 1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.testimonials2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 2rem;
+  background-color: rgba(245, 222, 179, 0);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.academics {
+  border: 2px solid black;
+  padding: 2rem;
+  border-radius: 0 0 1rem 1rem;
+  
+  font-family: sans-serif;
+}
+
+.academics-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Optional: set a maximum height */
+  object-fit: cover;
+}
+
+.academics h2, .academics p {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  padding-top: 2%;
+}
+
+.academics p {
+  color: black;
+  text-align: left;
+  font-weight: 300;
+  opacity: 0.7;
+  margin: 0 15% 0 15%;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+hr {
+  color: black;
+}
+
+.academics li {
+  margin-left: 16%;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.aspects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* padding: 2rem; */
+  border-radius: 0 0 1rem 1rem;
+  margin-top: 5rem;
+  margin-bottom: 0;
+  height: 50vh;
+}
+
+.important , .prospects {
+  display: flex;
+  margin-bottom: 25%;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-left: 0;
+  border-radius: 1rem;
+  justify-content:  center;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 2rem;
+}
+
+.prospects {
+  width: 40%;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.important h2, .prospects h2 {
+  text-align: center;
+  font-weight: 700;
+  padding: 1rem;
+  background-color: #4e598c;
+  color: white;
+  border-radius: 1rem 1rem 0 0;
+  padding-left: 0;
+}
+
+.important ul {
+  flex-direction: column;
+}
+
+.imp-courses-pg {
+  margin-left: 16%;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color:#4E598C;
+  padding: 1rem;
+  width: 20%;
+  border-radius: 1rem;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.1);
+}

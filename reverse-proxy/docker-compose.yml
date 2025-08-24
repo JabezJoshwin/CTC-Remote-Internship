@@ -1,0 +1,14 @@
+services:
+  app:
+    build: ./app
+    container_name: backend-app
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-proxy
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    depends_on:
+      - app
