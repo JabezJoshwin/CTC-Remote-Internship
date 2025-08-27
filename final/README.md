@@ -32,7 +32,9 @@ cd CTC-Remote-Internship/final
 
 Run this command in the root of your project directory (where the Dockerfile is located):
 
-```docker build -t ctc-remote-internship . ```
+```
+docker build -t ctc-remote-internship .
+```
 
 
 3. **Run the Docker container**
