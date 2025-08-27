@@ -41,7 +41,9 @@ docker build -t ctc-remote-internship .
 
 Run the container and map port 80 of the container to your machine's port 80:
 
-``` docker run -p 80:80 ctc-remote-internship ```
+```
+docker run -p 80:80 ctc-remote-internship
+```
 
 
 4. **Access the website**
@@ -56,12 +58,16 @@ Open a web browser and navigate to `http://localhost` (or `http://<your-docker-h
 
 - Alternatively, list running containers:
 
-``` docker ps ```
+```
+docker ps
+```
 
 
 Then stop the container by ID:
 
-``` docker stop <container-id> ```
+```
+docker stop <container-id>
+```
 
 
 ---
@@ -70,9 +76,9 @@ Then stop the container by ID:
 
 - Ensure port 80 is free on your host machine before running.
 - To use a different port, modify the `docker run` command. For example, to use port 8080:
-
-``` docker run -p 8080:80 ctc-remote-internship ```
-
+```
+docker run -p 8080:80 ctc-remote-internship
+```
 
 Access the site at `http://localhost:8080`.
 
